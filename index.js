@@ -39,6 +39,8 @@ module.exports = function plugin () {
 //   module.exports[name] = require('./lib/' + path);
 // });
 
+module.exports.Helper = require('./lib/helpers/Helper');
+
 module.exports.start = function bootstrap (next) {
 
   asimov
