@@ -1,0 +1,7 @@
+title: Deutsch
+---
+text:
+
+Wir sind in Deutschland... {{site.foo}}
+
+Should link to the german self... {{link "/"}}
