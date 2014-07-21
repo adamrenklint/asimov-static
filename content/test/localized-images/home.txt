@@ -1,0 +1,11 @@
+title: English page..
+---
+text:
+
+{{page.url}}
+
+You should see the english image...
+
+{{image "foo.png"}}
+
+{{image "bar.png"}}

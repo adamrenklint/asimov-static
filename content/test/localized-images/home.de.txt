@@ -1,0 +1,9 @@
+title: Deutsche seite..
+---
+text:
+
+Should see the german image:
+
+{{image "foo.png"}}
+
+{{image "bar.png"}}
