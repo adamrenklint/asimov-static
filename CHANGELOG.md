@@ -2,7 +2,7 @@
 
 ## 0.1.1
 
-  - **Released ?**
+  - **Released Tuesday July 22nd, 2014 @ 1.45pm**
   - Automatically redirect to localized page, if existing
 
 ## 0.1.0
