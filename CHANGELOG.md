@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+
+  - **Released Tuesday July 29th, 2014 @ 4.05pm**
+  - The ```{{children}}``` helper will automatically use localized pages when they exist
+
 ## 0.1.1
 
   - **Released Tuesday July 22nd, 2014 @ 1.45pm**
