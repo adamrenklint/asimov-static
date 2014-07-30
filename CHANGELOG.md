@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3
+
+  - **Released Wednesday July 30th, 2014 @ 4.05pm**
+  - Added the same render lifecycle events that already exists for Page to Script and StyleSheet: ```pre:render:script```, ```post:render:script```, ```pre:render:stylesheet```, ```post:render:stylesheet```
+
 ## 0.1.2
 
   - **Released Tuesday July 29th, 2014 @ 4.05pm**
