@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4
+
+  - **Released Wednesday July 30th, 2014 @ 7.30pm**
+  - Update asimov-server, that exposes ```/health``` endpoint for service discovery
+
 ## 0.1.3
 
   - **Released Wednesday July 30th, 2014 @ 4.05pm**
