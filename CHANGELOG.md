@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.5
+
+  - **Released Thursday July 31st, 2014 @ 2.25pm**
+  - LiveReload is now only active when ```ENV``` is ```"development"```
+
 ## 0.1.4
 
   - **Released Wednesday July 30th, 2014 @ 7.30pm**
