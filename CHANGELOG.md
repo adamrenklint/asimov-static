@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.6
+
+  - **Released Thursday July 31st, 2014 @ 6.35pm**
+  - Youtube helper url is not protocol relative
+
 ## 0.1.5
 
   - **Released Thursday July 31st, 2014 @ 2.25pm**
