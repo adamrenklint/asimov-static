@@ -2,6 +2,11 @@
 
 ## 0.1.6
 
+  - **Released Wednesday August 20th, 2014 @ 11.50am**
+  - Symlink ```site/fonts``` to build destination folder
+
+## 0.1.6
+
   - **Released Thursday July 31st, 2014 @ 6.35pm**
   - Youtube helper url is not protocol relative
 
