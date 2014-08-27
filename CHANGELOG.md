@@ -1,8 +1,8 @@
 # Changelog
 
-## 0.1.8
+## 0.1.9
 
-  - **Released Wednesday August 27th, 2014 @ 10.30am**
+  - **Released Wednesday August 27th, 2014 @ 10.35am**
   - Fix issue with Watcher not excluding ```/public``` and crashing on restart because of symlinked images
 
 ## 0.1.6
