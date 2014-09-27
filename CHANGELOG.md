@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0
+
+  - **Released Saturday September 27th, 2014 @ 11.25am**
+  - Bump to version 1.0, API is stable and all future updates and changes will follow sematic versioning
+
 ## 0.1.9
 
   - **Released Wednesday August 27th, 2014 @ 10.35am**
