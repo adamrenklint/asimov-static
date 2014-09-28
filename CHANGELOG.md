@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0
+
+  - **Released ?**
+  - All collections used to build the static site is now exposed on ```asimov.collections``` (pages, styleSheets, scripts, templates, helpers and siteData)
+
 ## 1.0.0
 
   - **Released Saturday September 27th, 2014 @ 11.25am**
