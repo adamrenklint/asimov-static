@@ -2,8 +2,9 @@
 
 ## 1.1.0
 
-  - **Released ?**
+  - **Released Tuesday October 21st, 2014 @ 5pm**
   - All collections used to build the static site is now exposed on ```asimov.collections``` (pages, styleSheets, scripts, templates, helpers and siteData)
+  - Fixed performance issue with ```{{import}}``` helper
 
 ## 1.0.0
 
