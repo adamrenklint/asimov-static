@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1
+
+  - **Released Monday November 10th, 2014 @ 12pm**
+  - Fixed issue where imported script bundles with mangled require paths would keep on crashing the server
+
 ## 1.1.0
 
   - **Released Tuesday October 21st, 2014 @ 5pm**
