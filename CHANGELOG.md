@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0
+
+  - **Released Friday November 14th, 2014 @ 5pm**
+  - Added ```req.original_url``` to requests that have been redirected by middlewares
+
 ## 1.1.1
 
   - **Released Monday November 10th, 2014 @ 12pm**
