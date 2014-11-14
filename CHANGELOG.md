@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.0
+
+  - [ ] Never precompile or cache pages in development
+  - [ ] Fix watcher/depParser edge cases
+
 ## 1.1.1
 
   - **Released Monday November 10th, 2014 @ 12pm**
