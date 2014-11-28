@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0
+
+  - **Released Friday November 28th, 2014 @ 4.55pm**
+  - Update [asimov](http://github.com/adamrenklint/asimov) to v1.1.0
+
 ## 1.2.0
 
   - **Released Friday November 14th, 2014 @ 5pm**
