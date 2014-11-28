@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.0
+
+  - **Released Friday November 28th, 2014 @ 6pm**
+  - Update [asimov-server](http://github.com/adamrenklint/asimov-server) to v1.1.0
+
 ## 1.3.0
 
   - **Released Friday November 28th, 2014 @ 4.55pm**
