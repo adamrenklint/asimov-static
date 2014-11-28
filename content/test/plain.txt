@@ -82,6 +82,7 @@ text:
 <ul>
   <li>in page folder: {{image "1.png"}}</li>
   <li>in site folder: {{image "site/images/site.png"}}</li>
+  <li>in site folder as background image: {{image "site/images/site.png" width="12" height="13" asBackgroundImage="true"}}</li>
 </ul>
 
 ### Import
