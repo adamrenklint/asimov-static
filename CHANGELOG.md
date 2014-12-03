@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.1
+
+  - **Released Wednesday December 3rd, 2014 @ 2pm**
+  - Scope ```PagePostRender#localizeUrls``` to urls in links [8](https://github.com/adamrenklint/asimov-static/pull/8)
+
 ## 1.4.0
 
   - **Released Friday November 28th, 2014 @ 6pm**
