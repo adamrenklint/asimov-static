@@ -26,6 +26,7 @@ module.exports = function plugin () {
 
   asimov.premiddleware(require('./lib/middleware/languageRedirect'));
   asimov.premiddleware(require('./lib/middleware/homeRedirect'));
+  asimov.middleware(require('./lib/middleware/dirtyRenderCheck'));
   asimov.postmiddleware(require('./lib/middleware/notFound'));
 };
 
@@ -45,7 +46,9 @@ module.exports.start = function bootstrap (next) {
 
   asimov
     .use(module.exports)
-    .start(next);
+    .start(function () {
+      console.log('>>>>>>>>> DONE', process.env.ROLE)
+    });
 };
 
 module.parent || module.exports.start();
