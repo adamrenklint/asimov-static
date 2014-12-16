@@ -1,6 +1,7 @@
 var asimov = require('asimov');
 var server = require('asimov-server');
 var Loader = require('./lib/core/Loader');
+var dirtyRenderCheck = require('./lib/middleware/dirtyRenderCheck');
 
 module.exports = function plugin () {
 
@@ -26,19 +27,11 @@ module.exports = function plugin () {
 
   asimov.premiddleware(require('./lib/middleware/languageRedirect'));
   asimov.premiddleware(require('./lib/middleware/homeRedirect'));
-  asimov.middleware(require('./lib/middleware/dirtyRenderCheck'));
+  asimov.middleware(dirtyRenderCheck.middleware);
   asimov.postmiddleware(require('./lib/middleware/notFound'));
-};
 
-// // Export public classes
-// [
-//   'Master',
-//   'Worker'
-// ].forEach(function (path) {
-//
-//   var name = path.split('/').pop();
-//   module.exports[name] = require('./lib/' + path);
-// });
+  asimov.handleDataRequest(dirtyRenderCheck.responder);
+};
 
 module.exports.Helper = require('./lib/helpers/Helper');
 
@@ -46,9 +39,7 @@ module.exports.start = function bootstrap (next) {
 
   asimov
     .use(module.exports)
-    .start(function () {
-      console.log('>>>>>>>>> DONE', process.env.ROLE)
-    });
+    .start(next);
 };
 
 module.parent || module.exports.start();

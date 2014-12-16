@@ -9,8 +9,8 @@
     "url": "http://adamrenklint.com"
   },
   "dependencies": {
-    "asimov": "1.1.0",
-    "asimov-server": "^1.2.0",
+    "asimov": "^1.1.1",
+    "asimov-server": "^1.3.0",
     "browserify": "^4.2.0",
     "handlebars": "^2.0.0-alpha.4",
     "locale": "0.0.17",
