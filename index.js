@@ -1,7 +1,6 @@
 var asimov = require('asimov');
 var server = require('asimov-server');
 var Loader = require('./lib/core/Loader');
-var dirtyRenderCheck = require('./lib/middleware/dirtyRenderCheck');
 
 module.exports = function plugin () {
 
@@ -25,12 +24,23 @@ module.exports = function plugin () {
     }
   });
 
+  asimov.premiddleware(require('./lib/middleware/logRequest'));
   asimov.premiddleware(require('./lib/middleware/languageRedirect'));
   asimov.premiddleware(require('./lib/middleware/homeRedirect'));
-  asimov.middleware(dirtyRenderCheck.middleware);
-  asimov.postmiddleware(require('./lib/middleware/notFound'));
 
-  asimov.handleDataRequest(dirtyRenderCheck.responder);
+  var responseTime = require('response-time');
+  asimov.middleware(responseTime());
+
+  if (process.env.ENV === 'production') {
+    asimov.middleware(require('./lib/middleware/memoryCache'));
+  }
+  else {
+    var dirtyRenderCheck = require('./lib/middleware/dirtyRenderCheck');
+    asimov.middleware(dirtyRenderCheck.middleware);
+    asimov.handleDataRequest(dirtyRenderCheck.responder);
+  }
+
+  asimov.postmiddleware(require('./lib/middleware/notFound'));
 };
 
 module.exports.Helper = require('./lib/helpers/Helper');
