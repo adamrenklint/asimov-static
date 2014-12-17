@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.5.0
+
+  - **Released Wednesday December 17th, 2014 @ 4pm**
+  - Much faster process startup in development mode by not pre-rendering all pages and asset files
+  - Automatic restart when modifying initializer or middleware (in development mode)
+  - Response time logging, both in process logger and response headers
+  - Faster response times for pages in production mode, using an in-memory cache
+
 ## 1.4.1
 
   - **Released Wednesday December 3rd, 2014 @ 2pm**
