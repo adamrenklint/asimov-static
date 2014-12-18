@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.1
+
+  - Now printing status code in response logger
+
 ## 1.5.0
 
   - **Released Wednesday December 17th, 2014 @ 4pm**
