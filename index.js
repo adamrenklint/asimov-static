@@ -31,13 +31,13 @@ module.exports = function plugin () {
   var responseTime = require('response-time');
   asimov.middleware(responseTime());
 
-  if (process.env.ENV === 'production') {
-    asimov.middleware(require('./lib/middleware/memoryCache'));
-  }
-  else {
+  if (process.env.ENV === 'development') {
     var dirtyRenderCheck = require('./lib/middleware/dirtyRenderCheck');
     asimov.middleware(dirtyRenderCheck.middleware);
     asimov.handleDataRequest(dirtyRenderCheck.responder);
+  }
+  else {
+    asimov.middleware(require('./lib/middleware/memoryCache'));
   }
 
   asimov.postmiddleware(require('./lib/middleware/notFound'));

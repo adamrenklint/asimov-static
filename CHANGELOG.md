@@ -2,7 +2,9 @@
 
 ## 1.5.1
 
+  - **Released Thursday December 18th, 2014 @ 5.15pm**
   - Now printing status code in response logger
+  - Lazy rendering is now only used when ```ENV``` is set to ```"development"```
 
 ## 1.5.0
 
