@@ -1,14 +1,15 @@
-var test = require('asimov-test');
 var libPath = '../../lib/';
-var StyleSheetHandler = require(libPath + 'updaters/StyleSheetHandler');
+var PageHandler = require(libPath + 'updaters/PageHandler');
 var Collection = require(libPath + 'core/Collection');
+var Test = require(libPath + 'runner/Test');
+var _ = require('lodash');
 
-test('updaters/StyleSheetHandler', function (test) {
+Test.run('updaters/PageHandler', function (test) {
 
   var instance;
 
   test.beforeEach(function () {
-    instance = new StyleSheetHandler({
+    instance = new PageHandler({
       'pages': new Collection(),
       'templates': new Collection(),
       'styleSheets': new Collection()
@@ -19,35 +20,48 @@ test('updaters/StyleSheetHandler', function (test) {
     instance.destroy();
   });
 
+  test.spec('created (string path, array graph)', function () {
+
+    test.it('should call fetch() on self.options.pages', function () {
+
+      var spy = sinon.spy(instance.options.pages, 'fetch');
+
+      instance.created('/any/path/page.txt', []);
+
+      expect(spy).to.have.been.calledOnce;
+      instance.options.pages.fetch.restore();
+    });
+  });
+
   test.spec('modified (string path, array graph)', function () {
 
-    test.when('graph contains a styleSheet', function () {
+    test.when('graph contains a page', function () {
 
-      test.when('the styleSheet matches the modified path', function () {
+      test.when('the page matches the modified path', function () {
 
         test.it('should call fetch() on the page', function () {
 
-          var modified = new instance.options.styleSheets.model({
-            'path': '/foo/bar/main.styl'
+          var modified = new instance.options.pages.model({
+            'path': '/foo/bar/page.txt'
           });
           var spy = sinon.spy(modified, 'fetch');
 
-          instance.modified('/foo/bar/main.styl', [modified]);
+          instance.modified('/foo/bar/page.txt', [modified]);
 
           expect(spy).to.have.been.calledOnce;
           modified.fetch.restore();
         });
       });
 
-      test.when('the styleSheet doesn\'t match the modified path', function () {
+      test.when('the page doesn\'t match the modified path', function () {
 
-        test.it('should defer trigger "change:raw" on styleSheet', function (done) {
+        test.it('should defer trigger "change:raw" with page', function (done) {
 
           var notModified = instance.options.pages.create({
-            'path': '/foo/bar2/main.styl'
+            'path': '/foo/bar2/page.txt'
           });
 
-          instance.modified('/foo/bar/main.styl', [notModified]);
+          instance.modified('/foo/bar/page.txt', [notModified]);
 
           notModified.on('change:raw', function () {
             done();

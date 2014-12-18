@@ -1,10 +1,9 @@
+var test = require('asimov-test');
 var libPath = '../../lib/';
 var PageHandler = require(libPath + 'updaters/PageHandler');
 var Collection = require(libPath + 'core/Collection');
-var Test = require(libPath + 'runner/Test');
-var _ = require('lodash');
 
-Test.run('updaters/PageHandler', function (test) {
+test('updaters/PageHandler', function (test) {
 
   var instance;
 

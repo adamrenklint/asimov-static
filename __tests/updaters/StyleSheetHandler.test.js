@@ -1,9 +1,10 @@
-var test = require('asimov-test');
 var libPath = '../../lib/';
 var StyleSheetHandler = require(libPath + 'updaters/StyleSheetHandler');
 var Collection = require(libPath + 'core/Collection');
+var Test = require(libPath + 'runner/Test');
+var _ = require('lodash');
 
-test('updaters/StyleSheetHandler', function (test) {
+Test.run('updaters/StyleSheetHandler', function (test) {
 
   var instance;
 
