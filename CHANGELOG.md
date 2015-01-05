@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.2
+
+  - **Released Monday January 5th, 2015 @ 12.20pm**
+  - Fixed an issue where valid urls (with trailing slash) would return 404 in lazy rendering mode
+
 ## 1.5.1
 
   - **Released Thursday December 18th, 2014 @ 5.15pm**
