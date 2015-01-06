@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.3
+  
+  - Fixed an issue where trailing section delimiters, without a trailing newline, would be converted to <h2>
+
 ## 1.5.2
 
   - **Released Monday January 5th, 2015 @ 12.20pm**
