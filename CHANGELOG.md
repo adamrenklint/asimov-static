@@ -1,7 +1,9 @@
 # Changelog
 
 ## 1.5.3
-  
+
+  - **Released Wednesday January 7th, 2015 @ 11.30am**
+  - Fixed an issue where a site with with several templates with similar names would end up registering a random dependency graph
   - Fixed an issue where trailing section delimiters, without a trailing newline, would be converted to <h2>
 
 ## 1.5.2
