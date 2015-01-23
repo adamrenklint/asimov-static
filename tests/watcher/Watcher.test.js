@@ -1,10 +1,11 @@
+var test = require('asimov-test');
 var libPath = '../../lib/';
 var Watcher = require(libPath + 'watcher/Watcher');
 var Collection = require(libPath + 'core/Collection');
 var Model = require(libPath + 'core/Model');
-var Test = require(libPath + 'runner/Test');
 
-Test.run('watcher/Watcher', function (test) {
+return;
+test('watcher/Watcher', function (test) {
 
   var instance;
 

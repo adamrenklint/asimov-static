@@ -1,0 +1,16 @@
+__tests/
+tests/
+_lib/
+build/
+content/
+.travis.yml
+.jshintrc
+.gitignore
+.npmignore
+Makefile
+Procfile
+build/
+temp/
+coverage/
+complexity/
+process.pid

@@ -1,10 +1,9 @@
+var test = require('asimov-test');
 var libPath = '../../lib/';
 var TemplateHandler = require(libPath + 'updaters/TemplateHandler');
 var Collection = require(libPath + 'core/Collection');
-var Test = require(libPath + 'runner/Test');
-var _ = require('lodash');
 
-Test.run('updaters/TemplateHandler', function (test) {
+test('updaters/TemplateHandler', function (test) {
 
   var instance;
 
