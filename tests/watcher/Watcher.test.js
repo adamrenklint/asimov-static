@@ -4,6 +4,7 @@ var Watcher = require(libPath + 'watcher/Watcher');
 var Collection = require(libPath + 'core/Collection');
 var Model = require(libPath + 'core/Model');
 
+return;
 test('watcher/Watcher', function (test) {
 
   var instance;
