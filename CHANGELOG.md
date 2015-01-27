@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.4
+
+  - **Released Tuesday January 27th, 2015 @ 5.10pm**
+  - Fixed an issue in ```PagePostRender``` which used the incorrect localized url [12](https://github.com/adamrenklint/asimov-static/pull/12)
+
 ## 1.5.3
 
   - **Released Wednesday January 7th, 2015 @ 11.30am**
