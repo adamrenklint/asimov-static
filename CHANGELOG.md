@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.5
+  - **Released Wednesdat January 28th, 2015 @ 10:50am**
+  - Fixed an issue where in DEV mode, urls like ```/de/?foo=bar``` would never render the right file [13](https://github.com/adamrenklint/asimov-static/pull/13)
+
 ## 1.5.4
 
   - **Released Tuesday January 27th, 2015 @ 5.10pm**
