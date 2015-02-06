@@ -1,6 +1,12 @@
 # Changelog
 
+## 1.6.0
+
+  - **Released Friday February 6th, 2015 @ 4.05pm**
+  - Added ```compile``` flag to ```{{style}}``` helper, pass ```false``` to skip stylus preprocessing and instead treat as plain CSS
+
 ## 1.5.5
+
   - **Released Wednesday January 28th, 2015 @ 10:50am**
   - Fixed an issue where in DEV mode, urls like ```/de/?foo=bar``` would never render the right file [13](https://github.com/adamrenklint/asimov-static/pull/13)
 
