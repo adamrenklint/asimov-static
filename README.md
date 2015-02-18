@@ -52,4 +52,4 @@ $ npm install --save asimov-static
 
 ## Credits
 
-Author: [Adam Renklint](http://adamrenklint.com). Contributors: [Adam Schroder](https://github.com/adamschroder), [Raymond May Jr](https://github.com/octatone).
+Author: [Adam Renklint](http://adamrenklint.com). Contributors: [Adam Schroder](https://github.com/adamschroder), [Raymond May Jr.](https://github.com/octatone), [Marvin Labod](https://github.com/mlabod).
