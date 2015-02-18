@@ -5,6 +5,8 @@ asimov-static
 
 **Static site generator for [asimov.js](http://github.com/adamrenklint/asimov) and [asimov-server](http://github.com/adamrenklint/asimov-server)**
 
+Made by [Adam Renklint](http://adamrenklint.com), Berlin 2014-2015. MIT licensed.
+
 ## Install
 
 ```
@@ -23,6 +25,13 @@ $ npm install --save asimov-static
 - Include any template as a partial with ```{{import "bar"}}```, and pass data with ```{{import "bar" object}}``` or ```{{import "bar" key="value"}}```
 - Start with ```$ asimov``` or ```$ asimov debug```
 
+### Advanced usage
+
+- [add process initializers](https://github.com/adamrenklint/asimov.js#initializers)
+- [add server request middleware](https://github.com/adamrenklint/asimov-server#middleware)
+- [using plugins](https://github.com/adamrenklint/asimov.js#adding-plugins)
+- [add cli commands](https://github.com/adamrenklint/asimov.js#create-a-new-command)
+
 ### Examples:
 
 - [asimovjs.org](https://github.com/adamrenklint/asimovjs.org)
@@ -31,5 +40,16 @@ $ npm install --save asimov-static
 
 ### Testing
 
-- Run unit tests with ```$ make test```
+- Run unit tests with ```$ asimov test```
 - Smoke tests are in [```/content/test```](https://github.com/adamrenklint/asimov-static/tree/master/content/test), run ```$ asimov``` to view
+
+### Publish new version
+
+- Bump version in ```package.json```, following [semver](http://semver.org/)
+- Make sure the [README](https://github.com/adamrenklint/asimov-static/blob/master/README.md) reflects the changes
+- Update the [changelog](https://github.com/adamrenklint/asimov-static/blob/master/CHANGELOG.md)
+- Run ```$ make publish```
+
+## Credits
+
+Author: [Adam Renklint](http://adamrenklint.com). Contributors: [Adam Schroder](https://github.com/adamschroder), [Raymond May Jr](https://github.com/octatone).

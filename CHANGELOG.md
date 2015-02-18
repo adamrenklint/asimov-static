@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.7.1
+
+  - **Released Wednesday Febrary 18th, 12.55pm**
+  - Finally added a basic [README](https://github.com/adamrenklint/asimov-static/blob/master/README.md)
+
 ## 1.7.0
 
   - **Released Wednesday Febrary 18th, 12.10pm**
