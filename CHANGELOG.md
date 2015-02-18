@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.7.0
+
+  - **Released Wednesday Febrary 18th, 12.10pm**
+  - Decoupled rendering page attributes from rendering page templates, solving issues where nested child page attributes are raw when rendering
+
 ## 1.6.0
 
   - **Released Friday February 6th, 2015 @ 4.05pm**
