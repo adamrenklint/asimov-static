@@ -13,9 +13,10 @@ $ npm install --save asimov-static
 
 ## Usage
 
+- Install the [asimov cli](https://github.com/adamrenklint/asimov.js#getting-started)
 - Create a [new asimov project](https://github.com/adamrenklint/asimov.js#create-a-new-project)
 - Add pages in ```/content``` using mixed [Markdown and YAML format](https://github.com/adamrenklint/asimov-static/blob/master/content/home.txt)
-- Add [localized version of pages](https://github.com/adamrenklint/asimov-static/blob/master/content/home.de.txt)
+- Add [localized versions of page](https://github.com/adamrenklint/asimov-static/blob/master/content/home.de.txt)
 - Add handlebars templates to ```/site/templates```
   - The name of the page textfile defines which template is used
 - Add styles to ```/site/styles``` and include with ```{{style "foo"}}``` in your template
