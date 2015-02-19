@@ -1,13 +1,21 @@
 # Changelog
 
+## 1.8.0
+
+  - **Released Thursday February 19th, 10.45am**
+  - [Improved sitemap generator](https://github.com/adamrenklint/asimov-static/pull/15):
+    - Now includes all pages not prefix with ```_```
+    - Add alternate language identifiers for pages with localizations
+    - Make sitemap URL protocol configurable
+
 ## 1.7.1
 
-  - **Released Wednesday Febrary 18th, 12.55pm**
+  - **Released Wednesday February 18th, 12.55pm**
   - Finally added a basic [README](https://github.com/adamrenklint/asimov-static/blob/master/README.md)
 
 ## 1.7.0
 
-  - **Released Wednesday Febrary 18th, 12.10pm**
+  - **Released Wednesday February 18th, 12.10pm**
   - Decoupled rendering page attributes from rendering page templates, solving issues where nested child page attributes are raw when rendering
 
 ## 1.6.0
