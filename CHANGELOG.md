@@ -1,9 +1,15 @@
 # Changelog
 
+## 1.9.2
+
+  - **Released Friday February 20th, 2.45pm**
+  - Fixed issue in ```/health``` ping endpoint, where the request was left hanging
+  - Fixed unhandled error in script prender chain
+
 ## 1.9.1
 
   - **Released Friday February 20th, 12.55pm**
-  - Fix unhandled error in "dirty render check"
+  - Fixed unhandled error in "dirty render check"
 
 ## 1.9.0
 
