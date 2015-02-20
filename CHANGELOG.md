@@ -1,7 +1,13 @@
 # Changelog
 
+## 1.9.1
+
+  - **Released Friday February 20th, 12.55pm**
+  - Fix unhandled error in "dirty render check"
+
 ## 1.9.0
 
+  - **Released Friday February 20th, 12.20pm**
   - Use asimov-server 1.4.0
   - Improved ```/health``` ping endpoint, will now return **404** until initial render queue is processed [16](https://github.com/adamrenklint/asimov-static/pull/16)
 
