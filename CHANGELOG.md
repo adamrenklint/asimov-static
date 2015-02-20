@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.9.0
+
+  - Use asimov-server 1.4.0
+  - Improved ```/health``` ping endpoint, will now return **404** until initial render queue is processed
+
 ## 1.8.0
 
   - **Released Thursday February 19th, 10.45am**
