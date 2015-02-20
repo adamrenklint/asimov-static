@@ -6,7 +6,8 @@ module.exports = function plugin () {
 
   asimov
     .config('defaultLangCode', 'en')
-    .config('languages', ['en']);
+    .config('languages', ['en'])
+    .config('server.healthy', false);
 
   asimov.use(server);
 
@@ -27,6 +28,10 @@ module.exports = function plugin () {
   asimov.premiddleware(require('./lib/middleware/logRequest'));
   asimov.premiddleware(require('./lib/middleware/languageRedirect'));
   asimov.premiddleware(require('./lib/middleware/homeRedirect'));
+
+  var health = require('./lib/middleware/health');
+  asimov.premiddleware(health.middleware);
+  asimov.handleDataRequest(health.responder);
 
   var responseTime = require('response-time');
   asimov.middleware(responseTime());
