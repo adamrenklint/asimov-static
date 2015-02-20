@@ -3,12 +3,12 @@
 ## 1.9.0
 
   - Use asimov-server 1.4.0
-  - Improved ```/health``` ping endpoint, will now return **404** until initial render queue is processed
+  - Improved ```/health``` ping endpoint, will now return **404** until initial render queue is processed [16](https://github.com/adamrenklint/asimov-static/pull/16)
 
 ## 1.8.0
 
   - **Released Thursday February 19th, 10.45am**
-  - [Improved sitemap generator](https://github.com/adamrenklint/asimov-static/pull/15):
+  - Improved sitemap generator [15](https://github.com/adamrenklint/asimov-static/pull/15)
     - Now includes all pages not prefix with ```_```
     - Add alternate language identifiers for pages with localizations
     - Make sitemap URL protocol configurable
