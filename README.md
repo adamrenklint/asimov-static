@@ -32,6 +32,14 @@ $ npm install --save asimov-static
 - [using plugins](https://github.com/adamrenklint/asimov.js#adding-plugins)
 - [add cli commands](https://github.com/adamrenklint/asimov.js#create-a-new-command)
 
+### Configuration
+
+- [environment configs](https://github.com/adamrenklint/asimov-static/tree/master/environments) are loaded automatically
+- [asimov.js config declarations](https://github.com/adamrenklint/asimov.js#configuration)
+  - **languages** define available languages, defaults to ```["en"]```
+  - **defaultLangCode** default ```"en"```
+  - **defaultLangFallback** allow localized pages to fall back to parent page when an attribute is not translated or available, defaults to ```TRUE```
+
 ### Examples:
 
 - [asimovjs.org](https://github.com/adamrenklint/asimovjs.org)
