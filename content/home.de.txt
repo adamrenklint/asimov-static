@@ -2,6 +2,8 @@ title: Deutsch
 ---
 text:
 
-Wir sind in Deutschland... {{site.foo}}
+Wir sind in Deutschland... {{site.foo}} and {{site.boo}}
 
 Should link to the german self... {{link "/"}}
+
+"{{test_lang_string_fallback}}" should be "works"

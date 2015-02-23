@@ -1,6 +1,6 @@
 {
   "name": "asimov-static",
-  "version": "1.9.3",
+  "version": "1.10.0",
   "homepage": "http://asimovjs.org",
   "description": "Awesome static site generator, based on asimov and asimov-server",
   "author": {
@@ -14,21 +14,21 @@
   "dependencies": {
     "asimov": "^1.2.0",
     "asimov-server": "^1.4.0",
-    "browserify": "^4.2.0",
-    "handlebars": "^2.0.0-alpha.4",
+    "browserify": "^9.0.3",
+    "handlebars": "^3.0.0",
     "locale": "0.0.17",
     "lodash": "^2.4.1",
-    "marked": "^0.3.2",
+    "marked": "^0.3.3",
     "nib": "^1.0.3",
     "node-uuid": "^1.4.2",
     "on-headers": "^1.0.0",
     "require-uncache": "0.0.2",
     "response-time": "^2.2.0",
-    "stylus": "^0.47.1",
+    "stylus": "^0.50.0",
     "uglify-js": "^2.4.15",
     "watchdirectory": "^0.1.5",
     "wunderbits.core": "^0.1.12",
-    "yaml-js": "0.0.8"
+    "yaml-js": "^0.1.0"
   },
   "devDependencies": {
     "asimov-test": "^0.3.0"

@@ -6,6 +6,8 @@ headline: asimov.js
 ---
 tags: [one, two, three]
 ---
+test_lang_string_fallback: works
+---
 text:
 
 Welcome to your brand new asimov.js project.
@@ -14,4 +16,5 @@ This is the default landing page, which you can change by editing <strong>/conte
 
 New to asimov.js? Check out {{link "http://asimovjs.org" "asimovjs.org"}}
 
-{{site.foo}}
+{{site.foo}} and {{site.boo}}
+"{{test_lang_string_fallback}}" should be "works"

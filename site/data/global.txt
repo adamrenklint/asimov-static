@@ -3,3 +3,5 @@ foo: bar
 asd: asdfdsasad
 ---
 secret: tttoken
+---
+boo: 888888
