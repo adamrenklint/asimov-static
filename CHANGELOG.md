@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.9.3
+
+  - **Released Monday February 23rd, 2.55pm**
+  - Changed ```/health``` check endpoint to return ```{"up":true}```, and be aliased on ```/api/health```
+
 ## 1.9.2
 
   - **Released Friday February 20th, 2.45pm**

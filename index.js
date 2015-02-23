@@ -7,7 +7,7 @@ module.exports = function plugin () {
   asimov
     .config('defaultLangCode', 'en')
     .config('languages', ['en'])
-    .config('server.healthy', false);
+    .config('server.ready', false);
 
   asimov.use(server);
 
