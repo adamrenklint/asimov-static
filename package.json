@@ -24,7 +24,7 @@
     "on-headers": "^1.0.0",
     "require-uncache": "0.0.2",
     "response-time": "^2.2.0",
-    "stylus": "^0.47.1",
+    "stylus": "^0.50.0",
     "uglify-js": "^2.4.15",
     "watchdirectory": "^0.1.5",
     "wunderbits.core": "^0.1.12",
