@@ -28,7 +28,7 @@
     "uglify-js": "^2.4.15",
     "watchdirectory": "^0.1.5",
     "wunderbits.core": "^0.1.12",
-    "yaml-js": "0.0.8"
+    "yaml-js": "^0.1.0"
   },
   "devDependencies": {
     "asimov-test": "^0.3.0"
