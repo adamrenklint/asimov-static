@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.10.0
+
+  - **Released Monday February 23rd, 4.25pm**
+  - When a localized page is missing an attribute value, fall back to the default language page value, unless [```asimov.config("defaultLangFallback")```](https://github.com/adamrenklint/asimov-static/blob/master/README.md#configuration) is set to ```FALSE```
+  - Update browserify, handlebars, marked, stylus, yaml-js
+
 ## 1.9.3
 
   - **Released Monday February 23rd, 2.55pm**

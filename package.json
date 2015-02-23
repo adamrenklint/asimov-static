@@ -1,6 +1,6 @@
 {
   "name": "asimov-static",
-  "version": "1.9.3",
+  "version": "1.10.0",
   "homepage": "http://asimovjs.org",
   "description": "Awesome static site generator, based on asimov and asimov-server",
   "author": {
