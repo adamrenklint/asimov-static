@@ -18,7 +18,7 @@
     "handlebars": "^3.0.0",
     "locale": "0.0.17",
     "lodash": "^2.4.1",
-    "marked": "^0.3.2",
+    "marked": "^0.3.3",
     "nib": "^1.0.3",
     "node-uuid": "^1.4.2",
     "on-headers": "^1.0.0",
