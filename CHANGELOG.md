@@ -3,6 +3,7 @@
 ## 1.11.1
 
   - Throw error if Helper name is not defined
+  - Fix issue where ```page.pkg``` was always undefined instead of reflecting ```package.json```
 
 ## 1.11.0
 
