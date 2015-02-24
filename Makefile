@@ -1,10 +1,10 @@
 test:
 	@npm test
 
-publish-beta:
+publish:
 	@npm test && npm publish && make tag
 
-publish:
+publish-beta:
 	@npm test && npm publish --tag beta && make tag
 
 tag:
