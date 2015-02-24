@@ -2,6 +2,7 @@
 
 ## 1.11.0
 
+  - **Released Tuesday February 24th, 6.50pm**
   - **Breaking**: page attribute keys are no longer lowercased, to be consistent with parsed YAML objects and because *magic sucks* [19](https://github.com/adamrenklint/asimov-static/issues/19)
   - **Deprecated**: helper names are no longer automatically lowercased, but will continue to work with a deprecation warning
   - Fix issue with ```helper.html()``` leaking the page attribute ```page```
