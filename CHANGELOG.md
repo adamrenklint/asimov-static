@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.10.1
+
+  - Fix issue with ```helper.html()``` leaking the page attribute ```page```
+
 ## 1.10.0
 
   - **Released Monday February 23rd, 4.25pm**
