@@ -1,7 +1,8 @@
 # Changelog
 
-## 1.10.1
+## 1.11.0
 
+  - **Potentially breaking**: page attribute keys are no longer lowercased, to be consistent with parsed YAML objects and because *magic sucks* [19](https://github.com/adamrenklint/asimov-static/issues/19)
   - Fix issue with ```helper.html()``` leaking the page attribute ```page```
 
 ## 1.10.0
