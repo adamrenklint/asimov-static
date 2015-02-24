@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.11.1
+
+  - Throw error if Helper name is not defined
+
 ## 1.11.0
 
   - **Released Tuesday February 24th, 6.50pm**
