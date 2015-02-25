@@ -2,8 +2,10 @@
 
 ## 1.11.1
 
+  - **Released Wednesday February 25th, 11.30am**
   - Throw error if Helper name is not defined
   - Fix issue where ```page.pkg``` was always undefined instead of reflecting ```package.json```
+  - Fix issue with deprecated lowercased helpers not returning the same value as the case sensitive version
 
 ## 1.11.0
 
