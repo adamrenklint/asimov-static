@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.12.0
+
+  - **Released Wednesday February 25th, 15.30am**
+  - **Revert breaking change in 1.11**: page attribute keys are now available again as lowercased additionally to being available in its original case
+
 ## 1.11.1
 
   - **Released Wednesday February 25th, 11.30am**
