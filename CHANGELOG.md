@@ -1,55 +1,60 @@
 # Changelog
 
+## 1.12.1
+
+  - **Released Thursday March 12th, 2015 @ 3.35pm**
+  - FIXED: ```page.isHidden()``` returns false for pages without a ```position``` attribute
+
 ## 1.12.0
 
-  - **Released Wednesday February 25th, 15.30am**
+  - **Released Wednesday February 25th, 2015 @ 15.30am**
   - **Revert breaking change in 1.11**: page attribute keys are now available again as lowercased additionally to being available in its original case
 
 ## 1.11.1
 
-  - **Released Wednesday February 25th, 11.30am**
+  - **Released Wednesday February 25th, 2015 @ 11.30am**
   - Throw error if Helper name is not defined
   - Fix issue where ```page.pkg``` was always undefined instead of reflecting ```package.json```
   - Fix issue with deprecated lowercased helpers not returning the same value as the case sensitive version
 
 ## 1.11.0
 
-  - **Released Tuesday February 24th, 6.50pm**
+  - **Released Tuesday February 24th, 2015 @ 6.50pm**
   - **Breaking**: page attribute keys are no longer lowercased, to be consistent with parsed YAML objects and because *magic sucks* [19](https://github.com/adamrenklint/asimov-static/issues/19)
   - **Deprecated**: helper names are no longer automatically lowercased, but will continue to work with a deprecation warning
   - Fix issue with ```helper.html()``` leaking the page attribute ```page```
 
 ## 1.10.0
 
-  - **Released Monday February 23rd, 4.25pm**
+  - **Released Monday February 23rd, 2015 @ 4.25pm**
   - When a localized page is missing an attribute value, fall back to the default language page value, unless [```asimov.config("defaultLangFallback")```](https://github.com/adamrenklint/asimov-static/blob/master/README.md#configuration) is set to ```FALSE```
   - Update browserify, handlebars, marked, stylus, yaml-js
 
 ## 1.9.3
 
-  - **Released Monday February 23rd, 2.55pm**
+  - **Released Monday February 23rd, 2015 @ 2.55pm**
   - Changed ```/health``` check endpoint to return ```{"up":true}```, and be aliased on ```/api/health```
 
 ## 1.9.2
 
-  - **Released Friday February 20th, 2.45pm**
+  - **Released Friday February 20th, 2015 @ 2.45pm**
   - Fixed issue in ```/health``` ping endpoint, where the request was left hanging
   - Fixed unhandled error in script prender chain
 
 ## 1.9.1
 
-  - **Released Friday February 20th, 12.55pm**
+  - **Released Friday February 20th, 2015 @ 12.55pm**
   - Fixed unhandled error in "dirty render check"
 
 ## 1.9.0
 
-  - **Released Friday February 20th, 12.20pm**
+  - **Released Friday February 20th, 2015 @ 12.20pm**
   - Use asimov-server 1.4.0
   - Improved ```/health``` ping endpoint, will now return **404** until initial render queue is processed [16](https://github.com/adamrenklint/asimov-static/pull/16)
 
 ## 1.8.0
 
-  - **Released Thursday February 19th, 10.45am**
+  - **Released Thursday February 19th, 2015 @ 10.45am**
   - Improved sitemap generator [15](https://github.com/adamrenklint/asimov-static/pull/15)
     - Now includes all pages not prefix with ```_```
     - Add alternate language identifiers for pages with localizations
@@ -57,12 +62,12 @@
 
 ## 1.7.1
 
-  - **Released Wednesday February 18th, 12.55pm**
+  - **Released Wednesday February 18th, 2015 @ 12.55pm**
   - Finally added a basic [README](https://github.com/adamrenklint/asimov-static/blob/master/README.md)
 
 ## 1.7.0
 
-  - **Released Wednesday February 18th, 12.10pm**
+  - **Released Wednesday February 18th, 2015 @ 12.10pm**
   - Decoupled rendering page attributes from rendering page templates, solving issues where nested child page attributes are raw when rendering
 
 ## 1.6.0
