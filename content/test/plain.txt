@@ -132,3 +132,34 @@ text:
 ### Vimeo
 
 ### Youtube
+
+### Code blocks and syntax highlighting
+
+```js
+module.exports = function plugin () {
+
+  asimov
+    .config('defaultLangCode', 'en')
+    .config('defaultLangFallback', true)
+    .config('languages', ['en'])
+    .config('server.ready', false);
+
+  asimov.use(server);
+
+  asimov.init(function (next) {
+
+    if (process.env.ROLE === 'worker') {
+      var loader = new Loader({
+        'frameworkDir': __dirname
+      });
+
+      loader.start(next);
+    }
+    else {
+      next();
+    }
+  });
+
+  asimov.postmiddleware(require('./lib/middleware/notFound'));
+};
+```

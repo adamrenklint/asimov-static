@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.13.0
+
+  - **Released ?**
+  - NEW: Github style syntax highlighting by adding ```{{style "asimov.highlight"}}```
+
 ## 1.12.1
 
   - **Released Thursday March 12th, 2015 @ 3.35pm**
