@@ -163,3 +163,7 @@ module.exports = function plugin () {
   asimov.postmiddleware(require('./lib/middleware/notFound'));
 };
 ```
+
+#### Inline code snippets
+
+Foo bar ```.foo``` or ```"fooobar"```
