@@ -4,6 +4,7 @@
 
   - **Released ?**
   - NEW: Github style syntax highlighting by adding ```{{style "asimov.highlight"}}```
+  - CHANGED: Removed automatic favicon insertion
 
 ## 1.12.1
 
