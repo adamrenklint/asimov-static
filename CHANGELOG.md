@@ -2,7 +2,7 @@
 
 ## 1.13.0
 
-  - **Released ?**
+  - **Released Friday March 13th, 2015 @ 4.05pm**
   - NEW: Github style syntax highlighting by adding ```{{style "asimov.highlight"}}```
   - CHANGED: Removed automatic favicon insertion
 
