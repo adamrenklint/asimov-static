@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.13.2
+
+- **Released ?**
+- FIXED: syntax highlighted code blocks within pre blocks have incorrect leading padding
+
 ## 1.13.1
   
   - **Released Sunday March 15th, 2015 @ 3.25pm**
