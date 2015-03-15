@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.13.1
+  
+  - **Released Sunday March 15th, 2015 @ 3.25pm**
+  - NEW: ```site/files``` folder is symlinked to ```public/site/files```, if it exists
+
 ## 1.13.0
 
   - **Released Friday March 13th, 2015 @ 4.05pm**
