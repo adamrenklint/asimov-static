@@ -1,8 +1,9 @@
 {
   "name": "asimov-static",
-  "version": "1.13.2-beta1",
+  "version": "2.0.0",
   "homepage": "http://asimovjs.org",
   "description": "Awesome static site generator, based on asimov and asimov-server",
+  "private": true,
   "author": {
     "name": "Adam Renklint",
     "email": "adam@renklint.com",
@@ -14,6 +15,7 @@
   "dependencies": {
     "asimov": "^1.2.0",
     "asimov-server": "^1.4.0",
+    "babelify": "^5.0.4",
     "browserify": "^9.0.3",
     "handlebars": "^3.0.0",
     "highlight.js": "^8.4.0",

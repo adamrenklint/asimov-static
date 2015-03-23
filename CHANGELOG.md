@@ -1,12 +1,13 @@
 # Changelog
 
-## 1.13.2
+## 2.0.0
 
 - **Released ?**
+- NEW: Client-side scripts are transformed with [babel](http://babeljs.io)
 - FIXED: syntax highlighted code blocks within pre blocks have incorrect leading padding
 
 ## 1.13.1
-  
+
   - **Released Sunday March 15th, 2015 @ 3.25pm**
   - NEW: ```site/files``` folder is symlinked to ```public/site/files```, if it exists
 
