@@ -4,6 +4,7 @@
 
 - **Released ?**
 - FIXED: syntax highlighted code blocks within pre blocks have incorrect leading padding
+- FIXED: highlight.js ignores defined language, always uses auto-detect
 - CHANGED: ScriptDependencyParser continues searching even after one dependency is not found
 - FIXED: Queue should not continue until all current jobs are completed
 
