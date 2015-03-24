@@ -4,9 +4,11 @@
 
 - **Released ?**
 - FIXED: syntax highlighted code blocks within pre blocks have incorrect leading padding
+- CHANGED: ScriptDependencyParser continues searching even after one dependency is not found
+- FIXED: Queue should not continue until all current jobs are completed
 
 ## 1.13.1
-  
+
   - **Released Sunday March 15th, 2015 @ 3.25pm**
   - NEW: ```site/files``` folder is symlinked to ```public/site/files```, if it exists
 
