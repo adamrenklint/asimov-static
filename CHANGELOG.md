@@ -7,6 +7,7 @@
 - FIXED: highlight.js ignores defined language, always uses auto-detect
 - CHANGED: ScriptDependencyParser continues searching even after one dependency is not found
 - FIXED: Queue should not continue until all current jobs are completed
+- CHANGED: Use asimov-server 1.5.0-beta
 
 ## 1.13.1
 
