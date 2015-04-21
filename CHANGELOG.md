@@ -1,13 +1,14 @@
 # Changelog
 
-## 1.13.2
+## 1.14.0
 
 - **Released ?**
+- NEW: Prebuild entire website to ```/public``` and exit with ```ENV=prebuild```
+- CHANGED: Use asimov 1.3 and asimov-server 1.5.0
 - FIXED: syntax highlighted code blocks within pre blocks have incorrect leading padding
 - FIXED: highlight.js ignores defined language, always uses auto-detect
 - CHANGED: ScriptDependencyParser continues searching even after one dependency is not found
 - FIXED: Queue should not continue until all current jobs are completed
-- CHANGED: Use asimov-server 1.5.0-beta
 
 ## 1.13.1
 
