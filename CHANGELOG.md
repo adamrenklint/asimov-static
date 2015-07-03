@@ -1,9 +1,10 @@
 # Changelog
 
-## 1.14.0
+## 2.0.0
 
-- **Released ?**
+- **Released Friday July 3rd, 2015 @ 11.26pm**
 - NEW: Prebuild entire website to ```/public``` and exit with ```ENV=prebuild```
+- NEW: Client-side scripts are transformed with [babel](http://babeljs.io)
 - CHANGED: Use asimov 1.3 and asimov-server 1.5.0
 - FIXED: syntax highlighted code blocks within pre blocks have incorrect leading padding
 - FIXED: highlight.js ignores defined language, always uses auto-detect

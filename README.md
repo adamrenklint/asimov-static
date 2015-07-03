@@ -22,8 +22,10 @@ $ npm install --save asimov-static
 - Add handlebars templates to ```/site/templates```
   - The name of the page textfile defines which template is used
 - Add styles to ```/site/styles``` and include with ```{{style "foo"}}``` in your template
+- Add client side scripts with ```{{script "foo"}}```, transpiled from es6/7 with Babel
 - Include any template as a partial with ```{{import "bar"}}```, and pass data with ```{{import "bar" object}}``` or ```{{import "bar" key="value"}}```
 - Start with ```$ asimov``` or ```$ asimov debug```
+- Prebuild entire site to ```/public``` with ```ENV=prebuild```, for use as pure static site generator
 
 ### Advanced usage
 
