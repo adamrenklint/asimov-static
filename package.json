@@ -3,7 +3,6 @@
   "version": "2.0.0",
   "homepage": "http://asimovjs.org",
   "description": "Awesome static site generator, based on asimov and asimov-server",
-  "private": true,
   "author": {
     "name": "Adam Renklint",
     "email": "adam@renklint.com",
