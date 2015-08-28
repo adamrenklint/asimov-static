@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.0
+
+- **Released Friday August 28th, 2015 @ 13.00pm**
+- CHANGED: Remove Babelify transform for script bundles
+
 ## 2.1.0
 
 - **Released Friday August 28th, 2015 @ 12.45pm**
