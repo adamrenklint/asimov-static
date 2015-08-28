@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.0-beta1
+
+- **Released Friday August 28th, 2015 @ 11.35am**
+- NEW: Serve prebuilt static content with ```USE_STATIC_PUBLIC``` environment variable
+- NEW: Prebuild command aliased to environment variable ```PREBUILD_STATIC_PUBLIC``` to avoid needing ```ENV``` to be set
+
 ## 2.0.0
 
 - **Released Friday July 3rd, 2015 @ 11.26pm**

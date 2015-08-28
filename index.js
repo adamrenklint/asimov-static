@@ -2,6 +2,11 @@ var asimov = require('asimov');
 var server = require('asimov-server');
 var Loader = require('./lib/core/Loader');
 
+// keep PREBUILD_STATIC_PUBLIC backwards compatible with ENV=prebuild
+if (process.env.ENV === 'prebuild') {
+  process.env.PREBUILD_STATIC_PUBLIC = true;
+}
+
 module.exports = function plugin () {
 
   asimov
@@ -10,7 +15,7 @@ module.exports = function plugin () {
     .config('languages', ['en'])
     .config('server.ready', false);
 
-  if (process.env.ENV !== 'prebuild') {
+  if (!process.env.PREBUILD_STATIC_PUBLIC) {
     asimov.use(server);
 
     asimov.premiddleware(require('./lib/middleware/logRequest'));
