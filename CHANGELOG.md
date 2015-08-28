@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.1
+
+- **Released Friday August 28th, 2015 @ 15.30pm**
+- FIXED: Health check being unreachable in ```USE_STATIC_PUBLIC``` mode
+
 ## 2.2.0
 
 - **Released Friday August 28th, 2015 @ 13.00pm**
