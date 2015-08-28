@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.1.0-beta2
+## 2.1.0-beta3
 
 - **Released Friday August 28th, 2015 @ 11.35am**
 - NEW: Serve prebuilt static content with ```USE_STATIC_PUBLIC``` environment variable
