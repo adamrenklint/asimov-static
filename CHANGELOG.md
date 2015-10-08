@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.2
+
+- **Released Thursday October 8th, 2015 @ 14.55pm**
+- CHANGED: Redirect localized root pages accessed with ```/home``` alias to non-aliased url
+
 ## 2.2.1
 
 - **Released Friday August 28th, 2015 @ 15.30pm**
