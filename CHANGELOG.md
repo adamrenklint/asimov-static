@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.3
+
+- **Released Thursday November 19th, 2015 @ 17.35**
+- FIXED: Not all pages are rendered when using ```PREBUILD_STATIC_PUBLIC``` flag
+- FIXED: Empty sitemap is rendered when using ```USE_STATIC_PUBLIC``` flag
+
 ## 2.2.2
 
 - **Released Thursday October 8th, 2015 @ 14.55pm**
